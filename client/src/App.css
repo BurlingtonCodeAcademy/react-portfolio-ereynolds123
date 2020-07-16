@@ -7,13 +7,14 @@
 
 /*Background Image and moves the text to desired position */
 #backgroundImage {
+  padding-top: 4px;
   width: 100vw;
 }
 
 
 .centered {
     position: absolute;
-    top:20%;
+    top:30%;
     left: 5%;
     color:white; 
     font-size: x-large;
@@ -22,10 +23,10 @@
 
 /*Navigation */
 nav {
-  padding-top: 15px;
+  padding-top: 18px;
   padding-bottom: 15px;
   width: 100%;
-  height: 10%;
+  height: 15%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -33,7 +34,8 @@ nav {
 }
 
 #logo {
-  height: 12vh;
+  height: 14vh;
+  
 }
 
 a {
@@ -52,10 +54,85 @@ img:hover {
   opacity: 0.75;
 }
 
+/*Gallery */
+
+div.gallery {
+  
+  border: 1px solid #ccc;
+ 
+}
+
+div.gallery img{
+  width: 33vw;
+  height: auto;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+.responsive {
+
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+
+
+
+
 /*Footer*/
 #footer{
     background-color: rgb(44, 43, 43);
     color: white;
     height: 20vh;
-    font-size: x-large
+    font-size: x-large;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+
+/*Styling social media */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
 }
