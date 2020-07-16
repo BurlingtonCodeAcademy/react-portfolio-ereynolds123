@@ -1,14 +1,18 @@
 import React from "react"
 import {Link} from "react-router-dom"
 
+
 function Header(props){
     return (
-        <div>
-        <Link to="/">Home</Link>
+        <>
+        <nav>
         <Link to="/about">About</Link>
         <Link to="/philosophy">Philosophy</Link>
+        <Link to="/"><img id="logo" src="/imgs/logo.png"></img></Link>
         <Link to="gallery">Gallery</Link>
-        </div>
+        <Link to="/contact">Contact</Link>
+        </nav>
+        </>
     )
 }
 

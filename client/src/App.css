@@ -1,0 +1,61 @@
+/* Home Page */
+
+#bodyContainer {
+  width: 100vw;
+  height: 100vh;
+}
+
+/*Background Image and moves the text to desired position */
+#backgroundImage {
+  width: 100vw;
+}
+
+
+.centered {
+    position: absolute;
+    top:20%;
+    left: 5%;
+    color:white; 
+    font-size: x-large;
+
+  }
+
+/*Navigation */
+nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid black;
+}
+
+#logo {
+  height: 12vh;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  font-size: x-large;
+}
+
+a:hover {
+  color: gray;
+  opacity: 0.75;
+}
+
+img:hover {
+  color: gray;
+  opacity: 0.75;
+}
+
+/*Footer*/
+#footer{
+    background-color: rgb(44, 43, 43);
+    color: white;
+    height: 20vh;
+    font-size: x-large
+}
