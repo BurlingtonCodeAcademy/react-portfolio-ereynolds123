@@ -3,6 +3,7 @@ import React from "react";
 function Gallery(props) {
   return (
     <>
+    
       <div class="responsive">
         <div class="leftHandGallery">
           <div class="gallery">
@@ -24,7 +25,7 @@ function Gallery(props) {
             </div>
           </div>
         </div>
-        <div class="leftHandGallery">
+        <div class="rightHandGallery">
           <div class="gallery">
             <img
               src="/imgs/dadandson.jpg"
@@ -45,6 +46,7 @@ function Gallery(props) {
           </div>
         </div>
       </div>
+
     </>
   );
 }

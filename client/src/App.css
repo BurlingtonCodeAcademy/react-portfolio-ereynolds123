@@ -63,7 +63,7 @@ div.gallery {
 }
 
 div.gallery img{
-  width: 33vw;
+  width: 30vw;
   height: auto;
 }
 
@@ -74,7 +74,7 @@ div.gallery:hover {
 .responsive {
 
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 100vw;
 }
 
@@ -93,18 +93,6 @@ div.gallery:hover {
 }
 
 
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
 
 
 /*Styling social media */
@@ -135,4 +123,19 @@ div.gallery:hover {
 .fa-linkedin {
   background: #007bb5;
   color: white;
+}
+
+
+/*Media Queries */
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
 }
