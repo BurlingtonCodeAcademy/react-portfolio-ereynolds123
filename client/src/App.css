@@ -1,8 +1,11 @@
 /* Home Page */
 
 #bodyContainer {
-  width: 100vw;
+  width: 99vw;
   height: 100vh;
+  justify-content: center;
+  margin: 5px;
+  padding: 0px;
 }
 
 /*Background Image and moves the text to desired position */
@@ -11,15 +14,13 @@
   width: 100vw;
 }
 
-
 .centered {
-    position: absolute;
-    top:30%;
-    left: 5%;
-    color:white; 
-    font-size: x-large;
-
-  }
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  color: white;
+  font-size: x-large;
+}
 
 /*Navigation */
 nav {
@@ -35,7 +36,6 @@ nav {
 
 #logo {
   height: 14vh;
-  
 }
 
 a {
@@ -54,17 +54,37 @@ img:hover {
   opacity: 0.75;
 }
 
+/* About Me */
+#aboutContainer {
+  width: 60vw;
+  margin: auto;
+}
+
+/*Philophy*/
+#aboutMe {
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+  font-size: large;
+}
+
+#aboutMePhoto {
+  width: 25vw;
+  padding: 15px;
+}
+
 /*Gallery */
 
 div.gallery {
-  
   border: 1px solid #ccc;
  
 }
 
-div.gallery img{
-  width: 30vw;
-  height: auto;
+div.gallery img {
+  width: 20vw;
+  height: 25vh;
+  margin: 1vw;
+
 }
 
 div.gallery:hover {
@@ -72,28 +92,44 @@ div.gallery:hover {
 }
 
 .responsive {
-
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+#responsiveWrapper {
   display: flex;
   justify-content: center;
   width: 100vw;
 }
 
 
+/*Contact*/
 
+#contactContainer{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
 
-
-/*Footer*/
-#footer{
-    background-color: rgb(44, 43, 43);
-    color: white;
-    height: 20vh;
-    font-size: x-large;
-    display: flex;
-    justify-content: space-around;
+}
+#leftHandContact{
+  width: 25vw;
 }
 
+#rightHandContact{
+  width: 25vw;
+  margin-left: 10vw; 
+}
 
-
+/*Footer*/
+#footer {
+  background-color: rgb(44, 43, 43);
+  color: white;
+  height: 20vh;
+  font-size: x-large;
+  display: flex;
+  justify-content: space-around;
+}
 
 /*Styling social media */
 .fa {
@@ -111,12 +147,12 @@ div.gallery:hover {
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
 
@@ -124,7 +160,6 @@ div.gallery:hover {
   background: #007bb5;
   color: white;
 }
-
 
 /*Media Queries */
 @media only screen and (max-width: 700px) {

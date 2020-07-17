@@ -5,7 +5,7 @@ function Footer(props){
     return(
         <div id="footer">
             <div id="leftColumn">
-           <h6>@Emily Reynolds Designs</h6>
+           <h6>©Emily Reynolds Designs, 2020</h6>
            </div>
            <div id="rightColumn">
             <h3>Emily Reynolds, Doula</h3>
