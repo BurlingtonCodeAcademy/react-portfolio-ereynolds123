@@ -125,7 +125,7 @@ div.gallery:hover {
 #footer {
   background-color: rgb(44, 43, 43);
   color: white;
-  height: 20vh;
+  height: 25vh;
   font-size: x-large;
   display: flex;
   justify-content: space-around;
