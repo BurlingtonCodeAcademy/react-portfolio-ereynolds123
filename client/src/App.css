@@ -1,0 +1,176 @@
+/* Home Page */
+
+#bodyContainer {
+  width: 99vw;
+  height: 100vh;
+  justify-content: center;
+  margin: 5px;
+  padding: 0px;
+}
+
+/*Background Image and moves the text to desired position */
+#backgroundImage {
+  padding-top: 4px;
+  width: 100vw;
+}
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  color: white;
+  font-size: x-large;
+}
+
+/*Navigation */
+nav {
+  padding-top: 18px;
+  padding-bottom: 15px;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid black;
+}
+
+#logo {
+  height: 14vh;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  font-size: x-large;
+}
+
+a:hover {
+  color: gray;
+  opacity: 0.75;
+}
+
+img:hover {
+  color: gray;
+  opacity: 0.75;
+}
+
+/* About Me */
+#aboutContainer {
+  width: 60vw;
+  margin: auto;
+}
+
+/*Philophy*/
+#aboutMe {
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+  font-size: large;
+}
+
+#aboutMePhoto {
+  width: 25vw;
+  padding: 15px;
+}
+
+/*Gallery */
+
+div.gallery {
+  border: 1px solid #ccc;
+ 
+}
+
+div.gallery img {
+  width: 20vw;
+  height: 25vh;
+  margin: 1vw;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+.responsive {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+#responsiveWrapper {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+
+/*Contact*/
+
+#contactContainer{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+
+}
+#leftHandContact{
+  width: 25vw;
+}
+
+#rightHandContact{
+  width: 25vw;
+  margin-left: 10vw; 
+}
+
+/*Footer*/
+#footer {
+  background-color: rgb(44, 43, 43);
+  color: white;
+  height: 25vh;
+  font-size: x-large;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Styling social media */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/*Media Queries */
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
